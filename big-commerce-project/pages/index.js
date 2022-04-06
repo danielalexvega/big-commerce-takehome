@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const homepage = () => {
+const Homepage = () => {
     const [showcaseEntryIds, setShowcaseEntryIds] = useState([]);
 
     useEffect(() => {
@@ -23,4 +23,4 @@ const homepage = () => {
     return <div>index</div>;
 };
 
-export default homepage;
+export default Homepage;
